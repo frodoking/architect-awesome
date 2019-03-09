@@ -515,7 +515,7 @@ TODO
 
 ### KMP 算法
 KMP：Knuth-Morris-Pratt算法（简称KMP）
-核心原理是利用一个“部分匹配表”，跳过已经匹配过的元素。
+核心原理是利用一个“部分匹配表”，跳过已经匹配过的元素。跳动规则：匹配字符串的最后一个字符对应的部分匹配值（根据字符串的前缀和后缀重合个数得出）；
 * [《字符串匹配的KMP算法》](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
 
 ## 深度优先、广度优先
